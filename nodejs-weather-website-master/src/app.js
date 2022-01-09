@@ -88,7 +88,7 @@ app.get('/help/*',(req,res)=>{
     res.render('404',{
         title:'404',
         para:'help page not found',
-        name:'Hrshit'
+        name:'Om Prakash Yadav'
     })
 } )
 
@@ -96,7 +96,7 @@ app.get('*',(req,res)=>{
     res.render('404',{
         title:'404',
         para:'404 page not found',
-        name:'Hrshit'
+        name:'Om Prakash Yadav'
     })
 } )
 
