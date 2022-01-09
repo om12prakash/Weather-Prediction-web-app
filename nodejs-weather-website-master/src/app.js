@@ -24,21 +24,21 @@ app.use(express.static(path.join(__dirname,'../public')))
 app.get('',(req,res)=>{
     res.render('index',{
         title:'Weather',
-        name:'Harshit Karan'
+        name:'Om Prakash Yadav'
     })
 })
 
 app.get('/about', (req,res)=>{
     res.render('about',{
         title:'About me',
-        name:'Harshit Karan'
+        name:'Om Prakash Yadav'
     })
 })
 
 app.get('/help', (req,res)=>{
     res.render('help',{
         title:'contact',
-        name:'6204872122'
+        name:'9838734589'
     })
 })
 
